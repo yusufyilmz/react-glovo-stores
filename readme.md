@@ -1,4 +1,4 @@
-#Glovo Senior Frontend Engineer Challenge
+# Glovo Senior Frontend Engineer Challenge
 
 We’d like to offer you a challenge to get a better understanding of your capabilities as a senior frontend engineer.
 
@@ -30,7 +30,7 @@ But beware, there are certain conditions:
 - Open stores should display a message that says: "Open right now"
 - Closed stores should display a message that says: "Next opening time: [day of the week] at [hour]"
 - Closed stores should be displayed last
-- If all the stores of a category are closed, the category itself should be closed (feel free to interpret it as you want)
+- If all the stores of a category are closed, the category itself should be closed
 - You should be able to filter by tags
 
 
