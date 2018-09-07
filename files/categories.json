@@ -1,0 +1,28 @@
+{
+  "categories":[
+    {
+      "id":3,
+      "label":"Snacks",
+      "openIcon":"StoreCategories/mpftvdrltk0tjiwc8cqo",
+      "sleepIcon":"StoreCategories/ctatofcgn5nq2cpp54fi"
+    },
+    {
+      "id":2,
+      "label":"Gifts",
+      "openIcon":"StoreCategories/tsrfiohkwah1zbr2vkp4",
+      "sleepIcon":"StoreCategories/hfjmlrnm4fgvuulucfgx"
+    },
+    {
+      "id":1,
+      "label":"Restaurants",
+      "openIcon":"StoreCategories/vdk4ujfpkltdpblrnhab",
+      "sleepIcon":"StoreCategories/njiwaafhx5ptkifofbor"
+    },
+    {
+      "id":4,
+      "label":"Wonders",
+      "openIcon":"StoreCategories/hhxw0ckf1kqpxuzo4eio",
+      "sleepIcon":"StoreCategories/a2lyponrbxbiqbtco8fu"
+    }
+  ]
+}
