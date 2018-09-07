@@ -1,5 +1,6 @@
 const Koa = require('koa');
 const KoaRouter = require('koa-router');
+const serve = require('koa-static')
 const cors = require('@koa/cors');
 const jsonfile = require('jsonfile');
 
@@ -37,6 +38,7 @@ router.get('/stores', (ctx, next) => {
 })
 
 app
+  .use(serve(__dirname + '/public'))
   .use(router.routes())
   .use(cors())
   .use(async ctx => {

@@ -3,26 +3,30 @@
     {
       "id":3,
       "label":"Snacks",
-      "openIcon":"StoreCategories/mpftvdrltk0tjiwc8cqo",
-      "sleepIcon":"StoreCategories/ctatofcgn5nq2cpp54fi"
+      "name": "snacks",
+      "openIcon":"http://localhost:3000/img/snacks-open.png",
+      "sleepIcon":"http://localhost:3000/img/snacks-sleep.png"
     },
     {
       "id":2,
       "label":"Gifts",
-      "openIcon":"StoreCategories/tsrfiohkwah1zbr2vkp4",
-      "sleepIcon":"StoreCategories/hfjmlrnm4fgvuulucfgx"
+      "name": "gifts",
+      "openIcon":"http://localhost:3000/img/gifts-open.png",
+      "sleepIcon":"http://localhost:3000/img/gifts-sleep.png"
     },
     {
       "id":1,
       "label":"Restaurants",
-      "openIcon":"StoreCategories/vdk4ujfpkltdpblrnhab",
-      "sleepIcon":"StoreCategories/njiwaafhx5ptkifofbor"
+      "name": "restaurants",
+      "openIcon":"http://localhost:3000/img/restaurants-open.png",
+      "sleepIcon":"http://localhost:3000/img/restaurants-sleep.png"
     },
     {
       "id":4,
       "label":"Wonders",
-      "openIcon":"StoreCategories/hhxw0ckf1kqpxuzo4eio",
-      "sleepIcon":"StoreCategories/a2lyponrbxbiqbtco8fu"
+      "name": "wonders",
+      "openIcon":"http://localhost:3000/img/wonders-open.png",
+      "sleepIcon":"http://localhost:3000/img/wonders-sleep.png"
     }
   ]
 }

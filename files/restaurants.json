@@ -2,7 +2,6 @@
   "stores": [
     {
       "id": 1,
-      "image": "",
       "name": "Fat burgers",
       "description": "Very good burgers, not fat at all",
       "tags": ["burgers", "american", "fat"],
@@ -46,7 +45,6 @@
     },
     {
       "id": 2,
-      "image": "",
       "name": "Spicy Indian Food",
       "description": "From Dheli to your table",
       "tags": ["indian", "spicy"],
@@ -85,7 +83,6 @@
     },
     {
       "id": 3,
-      "image": "",
       "name": "Mamma mia",
       "description": "It's me, Mario",
       "tags": ["italian", "pizza", "fat"],
@@ -124,7 +121,6 @@
     },
     {
       "id": 4,
-      "image": "",
       "name": "Ve-mine",
       "description": "Vegan food only for you",
       "tags": ["vegan", "healthy"],
@@ -163,7 +159,6 @@
     },
     {
       "id": 5,
-      "image": "",
       "name": "Not-so-fat burgers",
       "description": "Not-so-good burgers",
       "tags": ["burgers", "american"],
@@ -202,7 +197,6 @@
     },
     {
       "id": 6,
-      "image": "",
       "name": "Chicago pizzas",
       "description": "Pizzas, but not from italy",
       "tags": ["pizza", "american", "fat"],

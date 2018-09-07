@@ -2,7 +2,6 @@
   "stores": [
     {
       "id": 11,
-      "image": "",
       "name": "Watch me",
       "description": "You will not be able to stop watching our watches",
       "tags": ["watches"],
@@ -46,7 +45,6 @@
     },
     {
       "id": 12,
-      "image": "",
       "name": "Shockolate",
       "description": "Directly to your heart",
       "tags": ["chocolate", "food"],
@@ -85,7 +83,6 @@
     },
     {
       "id": 13,
-      "image": "",
       "name": "Everything for 1€",
       "description": "EVERYTHING",
       "tags": ["watches", "food", "chocolate"],
@@ -124,7 +121,6 @@
     },
     {
       "id": 14,
-      "image": "",
       "name": "Only 1hour shop",
       "description": "Nothing to see here",
       "tags": [],
