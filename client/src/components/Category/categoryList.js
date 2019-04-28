@@ -17,15 +17,19 @@ export default () => (
             {
               props => (
                 <Fragment>
-                  {props.error && <Error message={props.error} />}
-                  {props.categories.map(Category => (
-                    <CategoryColWrapper key={Category.id} md={6}>
-                      <CategoryCard
-                        item={Category}
-                      />
-                    </CategoryColWrapper>
-                  ))
-                  }
+                  <Row>
+                    {props.error && <Error message={props.error} />}
+                  </Row>
+                  <Row>
+                    {props.categories.map(Category => (
+                      <CategoryColWrapper key={Category.id} md={6}>
+                        <CategoryCard
+                          item={Category}
+                        />
+                      </CategoryColWrapper>
+                    ))
+                    }
+                  </Row>
                 </Fragment>
               )
             }
