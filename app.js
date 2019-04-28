@@ -3,9 +3,18 @@ const KoaRouter = require('koa-router');
 const serve = require('koa-static')
 const cors = require('@koa/cors');
 const jsonfile = require('jsonfile');
+const mount = require("koa-mount");
 
 const app = new Koa();
+
+
+const static_pages = new Koa();
+static_pages.use(serve(__dirname + "/client/build")); //serve the build directory
+app.use(mount("/", static_pages));
+
 const router = new KoaRouter();
+
+
 const supportedCategories = ['restaurants', 'snacks', 'wonders', 'gifts']
 
 router.get('/', (ctx, next) => {

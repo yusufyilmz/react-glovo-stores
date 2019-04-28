@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`STORE LABEL COMPONENT snapchat correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StoreLabel
+    label="label"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": "label",
+      "color": "rgb(251,159,138)",
+    },
+    "ref": null,
+    "rendered": "label",
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-ifAKCX",
+        "isStatic": false,
+        "rules": Array [
+          "
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    border-radius: 100px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: .50em 10px;
+    background-color: ",
+          [Function],
+          ";
+    color: #000000;
+    margin: 0 2px;
+    text-decoration: none!important;
+    &:hover {
+      text-decoration: none!important;
+      color: #000000;
+    }
+",
+        ],
+      },
+      "displayName": "StoreLabelWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-ifAKCX",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "label",
+        "color": "rgb(251,159,138)",
+      },
+      "ref": null,
+      "rendered": "label",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-ifAKCX",
+          "isStatic": false,
+          "rules": Array [
+            "
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    border-radius: 100px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: .50em 10px;
+    background-color: ",
+            [Function],
+            ";
+    color: #000000;
+    margin: 0 2px;
+    text-decoration: none!important;
+    &:hover {
+      text-decoration: none!important;
+      color: #000000;
+    }
+",
+          ],
+        },
+        "displayName": "StoreLabelWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-ifAKCX",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

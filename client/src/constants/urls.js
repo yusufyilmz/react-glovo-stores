@@ -1,0 +1,1 @@
+export const FILTER_ICON_URL = 'https://img.icons8.com/ios/26/000000/search-filled.png'

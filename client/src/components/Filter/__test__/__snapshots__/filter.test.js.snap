@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FILTER COMPONENT snapchat correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Filter
+    onChange={[MockFunction]}
+    placeholder="placeholder"
+    type="type"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ForwardRef>
+          <img
+            alt="Filter type"
+            src="https://img.icons8.com/ios/26/000000/search-filled.png"
+          />
+        </ForwardRef>,
+        <ForwardRef
+          onChange={[Function]}
+          placeholder="placeholder"
+          type="text"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <img
+            alt="Filter type"
+            src="https://img.icons8.com/ios/26/000000/search-filled.png"
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Filter type",
+            "src": "https://img.icons8.com/ios/26/000000/search-filled.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "rules": Array [
+              "
+",
+            ],
+          },
+          "displayName": "FilterInputSpanWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onChange": [Function],
+          "placeholder": "placeholder",
+          "type": "text",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "rules": Array [
+              "
+    border-color: ",
+              "#D3D3D3",
+              " !important;
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid #C8CCD4
+    border-radius: 0;
+    border-color: ",
+              "#D3D3D3",
+              "!important;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    padding-top: 10px;
+",
+            ],
+          },
+          "displayName": "FilterInputWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "input",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": true,
+        "rules": Array [
+          "
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+",
+        ],
+      },
+      "displayName": "FilterWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef>
+            <img
+              alt="Filter type"
+              src="https://img.icons8.com/ios/26/000000/search-filled.png"
+            />
+          </ForwardRef>,
+          <ForwardRef
+            onChange={[Function]}
+            placeholder="placeholder"
+            type="text"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <img
+              alt="Filter type"
+              src="https://img.icons8.com/ios/26/000000/search-filled.png"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Filter type",
+              "src": "https://img.icons8.com/ios/26/000000/search-filled.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": true,
+              "rules": Array [
+                "
+",
+              ],
+            },
+            "displayName": "FilterInputSpanWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "span",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onChange": [Function],
+            "placeholder": "placeholder",
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "rules": Array [
+                "
+    border-color: ",
+                "#D3D3D3",
+                " !important;
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid #C8CCD4
+    border-radius: 0;
+    border-color: ",
+                "#D3D3D3",
+                "!important;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    padding-top: 10px;
+",
+              ],
+            },
+            "displayName": "FilterInputWrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "input",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": true,
+          "rules": Array [
+            "
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+",
+          ],
+        },
+        "displayName": "FilterWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

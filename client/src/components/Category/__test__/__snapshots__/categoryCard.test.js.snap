@@ -1,0 +1,847 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CATEGORY CARD COMPONENT snapchat correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <_default
+    item={
+      Object {
+        "closed": true,
+        "label": "Snacks",
+        "name": "snacks",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef
+        as="div"
+        body={false}
+        closed={true}
+      >
+        <UNDEFINED
+          fallback={
+            <ForwardRef
+              as="img"
+              variant={null}
+            />
+          }
+        >
+          <UNDEFINED
+            item={
+              Object {
+                "closed": true,
+                "label": "Snacks",
+                "name": "snacks",
+              }
+            }
+          />
+        </UNDEFINED>
+        <ForwardRef>
+          <ForwardRef>
+            <b>
+              Snacks
+            </b>
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>,
+      "to": "/category/snacks",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "as": "div",
+        "body": false,
+        "children": Array [
+          <UNDEFINED
+            fallback={
+              <ForwardRef
+                as="img"
+                variant={null}
+              />
+            }
+          >
+            <UNDEFINED
+              item={
+                Object {
+                  "closed": true,
+                  "label": "Snacks",
+                  "name": "snacks",
+                }
+              }
+            />
+          </UNDEFINED>,
+          <ForwardRef>
+            <ForwardRef>
+              <b>
+                Snacks
+              </b>
+            </ForwardRef>
+          </ForwardRef>,
+        ],
+        "closed": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <UNDEFINED
+              item={
+                Object {
+                  "closed": true,
+                  "label": "Snacks",
+                  "name": "snacks",
+                }
+              }
+            />,
+            "fallback": <ForwardRef
+              as="img"
+              variant={null}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "item": Object {
+                "closed": true,
+                "label": "Snacks",
+                "name": "snacks",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            },
+          },
+          "type": Symbol(react.suspense),
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <ForwardRef>
+              <b>
+                Snacks
+              </b>
+            </ForwardRef>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <b>
+                Snacks
+              </b>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Snacks",
+              },
+              "ref": null,
+              "rendered": "Snacks",
+              "type": "b",
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-EHOje",
+                "isStatic": true,
+                "rules": Array [
+                  "
+    font-size: 22px;
+    color: #000;
+    line-height: 24px!important;
+    margin-bottom: 10px;
+    font-weight: 400;
+",
+                ],
+              },
+              "defaultProps": undefined,
+              "displayName": "CategoryCardTitleWrapper",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-EHOje",
+              "target": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": undefined,
+                "displayName": "CardTitle",
+                "render": [Function],
+              },
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardBody",
+            "render": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "Body": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardBody",
+          "render": [Function],
+        },
+        "Footer": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardFooter",
+          "render": [Function],
+        },
+        "Header": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardHeader",
+          "render": [Function],
+        },
+        "Img": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": Object {
+            "as": "img",
+            "variant": null,
+          },
+          "displayName": "CardImg",
+          "render": [Function],
+        },
+        "ImgOverlay": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardImgOverlay",
+          "render": [Function],
+        },
+        "Link": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardLink",
+          "render": [Function],
+        },
+        "Subtitle": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardSubtitle",
+          "render": [Function],
+        },
+        "Text": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardText",
+          "render": [Function],
+        },
+        "Title": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "defaultProps": undefined,
+          "displayName": "CardTitle",
+          "render": [Function],
+        },
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-htpNat",
+          "isStatic": false,
+          "rules": Array [
+            "
+    border: 1px solid  ",
+            [Function],
+            ";
+    border-radius: 10px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 40px;
+    transition: .3s;
+    min-width: 260px;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    max-width: 100%;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    &:hover {
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+        transform: scale(1.06, 1.06) 
+    }
+    @media ",
+            "(min-width: 320px)",
+            " { 
+        width: 240px;
+    }
+    @media ",
+            "(min-width: 375px)",
+            " { 
+        width: 300px;
+        height: 225px;
+    }
+",
+          ],
+        },
+        "defaultProps": Object {
+          "as": "div",
+          "body": false,
+        },
+        "displayName": "CategoryCardWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-htpNat",
+        "target": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Body": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardBody",
+            "render": [Function],
+          },
+          "Footer": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardFooter",
+            "render": [Function],
+          },
+          "Header": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardHeader",
+            "render": [Function],
+          },
+          "Img": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "img",
+              "variant": null,
+            },
+            "displayName": "CardImg",
+            "render": [Function],
+          },
+          "ImgOverlay": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardImgOverlay",
+            "render": [Function],
+          },
+          "Link": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardLink",
+            "render": [Function],
+          },
+          "Subtitle": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardSubtitle",
+            "render": [Function],
+          },
+          "Text": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardText",
+            "render": [Function],
+          },
+          "Title": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardTitle",
+            "render": [Function],
+          },
+          "defaultProps": Object {
+            "as": "div",
+            "body": false,
+          },
+          "displayName": "Card",
+          "render": [Function],
+        },
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+   &:hover {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+   }
+",
+        ],
+      },
+      "displayName": "CategoryLinkWrapper",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef
+          as="div"
+          body={false}
+          closed={true}
+        >
+          <UNDEFINED
+            fallback={
+              <ForwardRef
+                as="img"
+                variant={null}
+              />
+            }
+          >
+            <UNDEFINED
+              item={
+                Object {
+                  "closed": true,
+                  "label": "Snacks",
+                  "name": "snacks",
+                }
+              }
+            />
+          </UNDEFINED>
+          <ForwardRef>
+            <ForwardRef>
+              <b>
+                Snacks
+              </b>
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>,
+        "to": "/category/snacks",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "div",
+          "body": false,
+          "children": Array [
+            <UNDEFINED
+              fallback={
+                <ForwardRef
+                  as="img"
+                  variant={null}
+                />
+              }
+            >
+              <UNDEFINED
+                item={
+                  Object {
+                    "closed": true,
+                    "label": "Snacks",
+                    "name": "snacks",
+                  }
+                }
+              />
+            </UNDEFINED>,
+            <ForwardRef>
+              <ForwardRef>
+                <b>
+                  Snacks
+                </b>
+              </ForwardRef>
+            </ForwardRef>,
+          ],
+          "closed": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <UNDEFINED
+                item={
+                  Object {
+                    "closed": true,
+                    "label": "Snacks",
+                    "name": "snacks",
+                  }
+                }
+              />,
+              "fallback": <ForwardRef
+                as="img"
+                variant={null}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "item": Object {
+                  "closed": true,
+                  "label": "Snacks",
+                  "name": "snacks",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.lazy),
+                "_ctor": [Function],
+                "_result": null,
+                "_status": -1,
+              },
+            },
+            "type": Symbol(react.suspense),
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <ForwardRef>
+                <b>
+                  Snacks
+                </b>
+              </ForwardRef>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <b>
+                  Snacks
+                </b>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Snacks",
+                },
+                "ref": null,
+                "rendered": "Snacks",
+                "type": "b",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-EHOje",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+    font-size: 22px;
+    color: #000;
+    line-height: 24px!important;
+    margin-bottom: 10px;
+    font-weight: 400;
+",
+                  ],
+                },
+                "defaultProps": undefined,
+                "displayName": "CategoryCardTitleWrapper",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-EHOje",
+                "target": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "defaultProps": undefined,
+                  "displayName": "CardTitle",
+                  "render": [Function],
+                },
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardBody",
+              "render": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "Body": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardBody",
+            "render": [Function],
+          },
+          "Footer": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardFooter",
+            "render": [Function],
+          },
+          "Header": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardHeader",
+            "render": [Function],
+          },
+          "Img": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "as": "img",
+              "variant": null,
+            },
+            "displayName": "CardImg",
+            "render": [Function],
+          },
+          "ImgOverlay": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardImgOverlay",
+            "render": [Function],
+          },
+          "Link": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardLink",
+            "render": [Function],
+          },
+          "Subtitle": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardSubtitle",
+            "render": [Function],
+          },
+          "Text": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardText",
+            "render": [Function],
+          },
+          "Title": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": undefined,
+            "displayName": "CardTitle",
+            "render": [Function],
+          },
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "rules": Array [
+              "
+    border: 1px solid  ",
+              [Function],
+              ";
+    border-radius: 10px;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+    text-decoration: none;
+    overflow: hidden;
+    margin-bottom: 40px;
+    transition: .3s;
+    min-width: 260px;
+    text-align: center;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    max-width: 100%;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    &:hover {
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+        transform: scale(1.06, 1.06) 
+    }
+    @media ",
+              "(min-width: 320px)",
+              " { 
+        width: 240px;
+    }
+    @media ",
+              "(min-width: 375px)",
+              " { 
+        width: 300px;
+        height: 225px;
+    }
+",
+            ],
+          },
+          "defaultProps": Object {
+            "as": "div",
+            "body": false,
+          },
+          "displayName": "CategoryCardWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Body": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardBody",
+              "render": [Function],
+            },
+            "Footer": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardFooter",
+              "render": [Function],
+            },
+            "Header": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardHeader",
+              "render": [Function],
+            },
+            "Img": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "as": "img",
+                "variant": null,
+              },
+              "displayName": "CardImg",
+              "render": [Function],
+            },
+            "ImgOverlay": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardImgOverlay",
+              "render": [Function],
+            },
+            "Link": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardLink",
+              "render": [Function],
+            },
+            "Subtitle": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardSubtitle",
+              "render": [Function],
+            },
+            "Text": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardText",
+              "render": [Function],
+            },
+            "Title": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": undefined,
+              "displayName": "CardTitle",
+              "render": [Function],
+            },
+            "defaultProps": Object {
+              "as": "div",
+              "body": false,
+            },
+            "displayName": "Card",
+            "render": [Function],
+          },
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+   &:hover {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+   }
+",
+          ],
+        },
+        "displayName": "CategoryLinkWrapper",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
