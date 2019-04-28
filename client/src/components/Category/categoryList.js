@@ -9,34 +9,26 @@ const CategoryContainer = React.lazy(() => import('../../containers/categoryCont
 
 
 export default () => (
-  <Container>
-    <Row>
-      <Suspense fallback={<Spinner />}>
-        <CategoryCardListWrapper>
-          <CategoryContainer>
-            {
-              props => (
-                <Fragment>
-                  <Row>
-                    {props.error && <Error message={props.error} />}
-                  </Row>
-                  <Row>
-                    {props.categories.map(Category => (
-                      <CategoryColWrapper key={Category.id} md={6}>
-                        <CategoryCard
-                          item={Category}
-                        />
-                      </CategoryColWrapper>
-                    ))
-                    }
-                  </Row>
-                </Fragment>
-              )
-            }
-          </CategoryContainer>
-        </CategoryCardListWrapper>
+  <Suspense fallback={<Spinner />}>
+    <CategoryContainer>
+      {
+        props => (
+          <Fragment>
+            {props.error && <Error message={props.error} />}
+            <CategoryCardListWrapper>
+              {props.categories.map(Category => (
+                <CategoryColWrapper key={Category.id} md={6}>
+                  <CategoryCard
+                    item={Category}
+                  />
+                </CategoryColWrapper>
+              ))
+              }
+            </CategoryCardListWrapper>
+          </Fragment>
+        )
+      }
+    </CategoryContainer>
 
-      </Suspense>
-    </Row>
-  </Container>
+  </Suspense>
 );

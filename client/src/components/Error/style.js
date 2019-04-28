@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const ErrorWrapper = styled.div`
-    max-width: 600px;
     font-size: 16px;
+    Max-width: 820px;
     width: 100%;
-    ax-width: 820px;
-    width: 100%;
-    padding: 0 10px;
-    margin: 22vh auto;
+    margin-top: 80px;
+    // margin-left: 10%;
     color: #4a4a4a;
     justify-content: space-between;
 `

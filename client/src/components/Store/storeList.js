@@ -18,9 +18,7 @@ export const StoreList = ({ type }) => (
               type={type}
               placeholder={`Search in the ${type} with tags`}
               onChange={props.filterHandleChange} />
-            <Row>
-              {props.error && <Error message={props.error} />}
-            </Row>
+            {props.error && <Error message={props.error} />}
             <Row>
               {props.stores.map(store => (
                 <Col

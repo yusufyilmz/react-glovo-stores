@@ -13,9 +13,9 @@ export const fetchCategories = () => async (dispatch, getState) => {
       dispatch(success(storeStateHelper.getCategoryStoreStates(data)));
     })
     .catch((error) => {
-      if (getState().category.items.length === 0) {
-        dispatch(fail(ERROR_OCCURED));
-      }
+      // if (getState().category.items.length === 0) {
+      //   dispatch(fail(ERROR_OCCURED));
+      // }
     });
 
   function success(data) { return { type: actionTypes.FETCH_CATEGORIES_SUCCESS, payload: data } }
