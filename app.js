@@ -54,6 +54,6 @@ app
     ctx.body = 'Hello World';
   });
 
-app.listen(3000, (err) => {
+app.listen(process.env.PORT || 3000, (err) => {
   console.log(`listening to port 3000`)
 });
