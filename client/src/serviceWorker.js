@@ -12,12 +12,12 @@
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
-  // [::1] is the IPv6 localhost address.
-  window.location.hostname === '[::1]' ||
-  // 127.0.0.1/8 is considered localhost for IPv4.
-  window.location.hostname.match(
-    /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
-  )
+    // [::1] is the IPv6 localhost address.
+    window.location.hostname === '[::1]' ||
+    // 127.0.0.1/8 is considered localhost for IPv4.
+    window.location.hostname.match(
+      /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+    )
 );
 
 export function register(config) {
@@ -31,7 +31,7 @@ export function register(config) {
       return;
     }
 
-
+    
 
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
@@ -45,7 +45,7 @@ export function register(config) {
         navigator.serviceWorker.ready.then(() => {
           console.log(
             'This web app is being served cache-first by a service ' +
-            'worker. To learn more, visit https://bit.ly/CRA-PWA'
+              'worker. To learn more, visit https://bit.ly/CRA-PWA'
           );
         });
       } else {
@@ -53,25 +53,6 @@ export function register(config) {
         registerValidSW(swUrl, config);
       }
     });
-
-    window.addEventListener('fetch', function (e) {
-      console.log('[demoPWA - ServiceWorker] Fetch event fired.', e.request.url);
-      e.respondWith(
-        caches.match(e.request).then(function (response) {
-          if (response) {
-            console.log('[demoPWA - ServiceWorker] Retrieving from cache...');
-            return response;
-          }
-          console.log('[demoPWA - ServiceWorker] Retrieving from URL...');
-          return fetch(e.request).catch(function (e) {
-            //you might want to do more error checking here too,
-            //eg, check what e is returning..
-            alert('You appear to be offline, please try again when back online');
-          });
-        })
-      );
-    });
-
   }
 }
 
@@ -92,7 +73,7 @@ function registerValidSW(swUrl, config) {
               // content until all client tabs are closed.
               console.log(
                 'New content is available and will be used when all ' +
-                'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
+                  'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
               );
 
               // Execute callback

@@ -3,7 +3,7 @@ import { GlovoAPI } from '../api/glovoAPI';
 import { ERROR_OCCURED } from '../constants/messages';
 import { storeStateHelper } from '../Helpers/storeStateHelper';
 
-export const fetchCategories = () => async (dispatch) => {
+export const fetchCategories = () => async (dispatch, getState) => {
 
   GlovoAPI.fetchCategories()
     .then(data => {
@@ -13,7 +13,9 @@ export const fetchCategories = () => async (dispatch) => {
       dispatch(success(storeStateHelper.getCategoryStoreStates(data)));
     })
     .catch((error) => {
-      dispatch(fail(ERROR_OCCURED));
+      if (getState().category.items.length === 0) {
+        dispatch(fail(ERROR_OCCURED));
+      }
     });
 
   function success(data) { return { type: actionTypes.FETCH_CATEGORIES_SUCCESS, payload: data } }
